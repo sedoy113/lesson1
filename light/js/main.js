@@ -19,7 +19,7 @@ mainList = {
 };
 
 console.log(mainList);
-alert('Ваш бюджет на 1 день' + yourBudget/30);*
+alert('Ваш бюджет на 1 день' + yourBudget/30);
 
 
 
