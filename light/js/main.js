@@ -33,17 +33,17 @@ alert('Ваш бюджет на 1 день' + yourBudget/30);*/
 		shopName: name,
 		shopGoods: [],
 		open: false,
-		employers: {
-			name: 'Ivan',
-			name2: 'Sergey'
-		}
+		employers: {}
 	};
-	mainList.shopGoods[0] = prompt ("Какой тип товаров будем продавать?");
-	mainList.shopGoods[1] = prompt ("Какой тип товаров будем продавать?");
-	mainList.shopGoods[2] = prompt ("Какой тип товаров будем продавать?");
+		//установили шаг цикла при помощи инкремента
+	for (let i = 0; i < 5; i++) {
+
+		let a = prompt ("Какой тип товаров будем продавать?");
+		mainList.shopGoods[i] = a;
+
+	}
 
 	console.log(mainList);
-	alert('Ваш бюджет на 1 день' + mainList.budget / 30);
 
 
 
